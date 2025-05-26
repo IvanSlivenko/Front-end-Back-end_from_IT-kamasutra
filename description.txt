@@ -4,14 +4,42 @@ https://youtu.be/zUSfIufGDxQ
 
 samurai-taxi
 
+curl -v http://localhost:3000
+
+
+request :
+---------------------
+- url
+- headers
+- body
+
+
+response
+--------------------
+- Status code (200, 404)
+- headers
+- body
+
+
+frontend -> http://localhost:63342 -> http://localhost:3000-> frontend
+
+
+
  
+==================================================
+00 : 20 : 36
 
 
 
 
 
+
+---------------------------------------------------------------------- Lesson2
+https://youtu.be/PfMrP6lI3JA
 
 
 
 ==================================================
-00 : 14 : 02
+00 : 10 : 11
+
+
