@@ -17,9 +17,9 @@ const server = http.createServer((req, res) => {
     // Відповідь на звичайні запити
     res.writeHead(200, {
         'Access-Control-Allow-Origin': 'http://localhost:63342',
-        'Content-Type': 'text/plain',
+        'Content-Type': 'text/html',
     });
-    res.end('Hello from Back-end');
+    res.end('<a href="https://uakino.me/filmy/genre-action/16072-ostrv-golovorzv.html" target="_blank">Hello from Back-end</a>');
 });
 
 server.listen(3000, () => {
